@@ -27,3 +27,22 @@
 .copyright {
   font-weight: var(--font-weight-medium);
 }
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 480px) {
+  .navWrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .navListWrapper {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}

@@ -1,6 +1,6 @@
 .richText {
   width: 100%;
-  max-width: var(--md);
+  max-width: var(--lg);
   margin: 0 auto;
   padding: 4rem 0;
   font-size: var(--font-size-medium);
@@ -82,7 +82,4 @@
     padding: 2rem 0;
     font-size: var(--font-size-base);
   }
-}
-
-@media (max-width: 320px) {
 }

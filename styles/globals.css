@@ -198,9 +198,6 @@ ol {
   }
 }
 
-@media (max-width: 320px) {
-}
-
 @media (prefers-color-scheme: light) {
   body {
     color: var(--primary-color);
