@@ -138,7 +138,7 @@ ol {
 .innerWrapper {
   max-width: var(--2xl);
   margin: 0 auto;
-  padding: 0 var(--padding-md);
+  padding: 0 var(--padding-xl);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -148,29 +148,66 @@ ol {
   }
 }
 
+@media (max-width: 991px) {
+  .innerWrapper {
+    padding: 0 var(--padding-lg);
+  }
+}
+
+@media (max-width: 767px) {
+  .innerWrapper {
+    padding: 0 var(--padding-sm);
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 320px) {
+}
+
 @media (prefers-color-scheme: light) {
   body {
     color: var(--primary-color);
     background-color: var(--secondary-color);
   }
-}
-
-@media (min-width: var(--sm)) {
-  /* Styles for small screens */
-}
-
-@media (min-width: var(--md)) {
-  /* Styles for medium screens */
-}
-
-@media (min-width: var(--lg)) {
-  /* Styles for large screens */
-}
-
-@media (min-width: var(--xl)) {
-  /* Styles for extra large screens */
-}
-
-@media (min-width: var(--2xl)) {
-  /* Styles for 2x extra large screens */
 }
