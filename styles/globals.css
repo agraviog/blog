@@ -138,7 +138,7 @@ ol {
 .innerWrapper {
   max-width: var(--2xl);
   margin: 0 auto;
-  padding: 0 var(--padding-xl);
+  padding: 0 var(--padding-md);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -149,16 +149,6 @@ ol {
 }
 
 @media (max-width: 991px) {
-  .innerWrapper {
-    padding: 0 var(--padding-lg);
-  }
-}
-
-@media (max-width: 767px) {
-  .innerWrapper {
-    padding: 0 var(--padding-sm);
-  }
-
   h1 {
     font-size: 3rem;
   }
@@ -177,6 +167,12 @@ ol {
 
   h5 {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .innerWrapper {
+    padding: 0 var(--padding-sm);
   }
 }
 
