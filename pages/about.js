@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Nav from './nav';
 import Footer from './footer';
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>

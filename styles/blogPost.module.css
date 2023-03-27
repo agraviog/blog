@@ -1,0 +1,42 @@
+.richText {
+  width: 100%;
+  max-width: var(--md);
+  margin: 0 auto;
+  padding: 4rem 0;
+  font-size: var(--font-size-medium);
+}
+
+.blogTitle {
+  font-size: 4rem;
+  font-weight: var(--font-weight-medium);
+  padding-right: var(--padding-xl);
+}
+
+.blogDate {
+  font-weight: var(--font-weight-medium);
+}
+
+.blogImage {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.richText ol li {
+  list-style: decimal;
+  margin-bottom: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.richText ul li {
+  list-style: disc;
+  margin-bottom: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.blogColWrapper {
+  padding-top: var(--spacing-spacing-7);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
