@@ -1,4 +1,4 @@
-export const blogData = [
+const blogData = [
   {
     id: 'blog-001',
     title: 'How I Taught Myself Coding and SEO and why you should too',
@@ -21,3 +21,5 @@ export const blogData = [
     alt: 'Blog Image 02',
   },
 ];
+
+export {blogData};
