@@ -1,6 +1,4 @@
-import React from 'react';
-
-const blogData = [
+const BlogData = [
   {
     id: 'blog-001',
     title: 'How I Taught Myself Coding and SEO and why you should too',
@@ -24,12 +22,4 @@ const blogData = [
   },
 ];
 
-const BlogDataPage = () => {
-  return (
-    <div>
-      <pre>{JSON.stringify(blogData, null, 2)}</pre>
-    </div>
-  );
-};
-
-export default BlogDataPage;
+export default BlogData;

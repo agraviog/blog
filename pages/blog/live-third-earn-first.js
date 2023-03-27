@@ -2,10 +2,10 @@ import Head from 'next/head';
 import styles from '/styles/blogPost.module.css';
 import Nav from '../nav';
 import Footer from '../footer';
-import {blogData} from '../BlogDataPage';
+import BlogData from '../blogdata';
 
 export default function blogPost() {
-  const blogPost = blogData.find((post) => post.id === 'blog-002');
+  const blogPost = BlogData.find((post) => post.id === 'blog-002');
 
   return (
     <>
