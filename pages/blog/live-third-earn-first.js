@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '/styles/blogPost.module.css';
 import Nav from '../nav';
 import Footer from '../footer';
-import {blogData} from '../blogdata';
+import {blogData} from '../BlogDataPage';
 
 export default function blogPost() {
   const blogPost = blogData.find((post) => post.id === 'blog-002');
