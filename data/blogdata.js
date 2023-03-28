@@ -1,4 +1,4 @@
-const blogData = [
+const BlogData = [
   {
     id: 'blog-001',
     title: 'How I Taught Myself Coding and SEO and why you should too',
@@ -22,4 +22,4 @@ const blogData = [
   },
 ];
 
-export default blogData;
+export default BlogData;

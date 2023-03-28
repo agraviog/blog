@@ -6,32 +6,32 @@ import localFont from 'next/font/local';
 const neueMontreal = localFont({
   src: [
     {
-      path: './fonts/PPNeueMontreal-Bold.woff2',
+      path: '../fonts/PPNeueMontreal-Bold.woff2',
       weight: '800',
       style: 'normal',
     },
     {
-      path: './fonts/PPNeueMontreal-Book.woff2',
+      path: '../fonts/PPNeueMontreal-Book.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: './fonts/PPNeueMontreal-Light.woff2',
+      path: '../fonts/PPNeueMontreal-Light.woff2',
       weight: '300',
       style: 'normal',
     },
     {
-      path: './fonts/PPNeueMontreal-Medium.woff2',
+      path: '../fonts/PPNeueMontreal-Medium.woff2',
       weight: '530',
       style: 'normal',
     },
     {
-      path: './fonts/PPNeueMontreal-Regular.woff2',
+      path: '../fonts/PPNeueMontreal-Regular.woff2',
       weight: '450',
       style: 'normal',
     },
     {
-      path: './fonts/PPNeueMontreal-Thin.woff2',
+      path: '../fonts/PPNeueMontreal-Thin.woff2',
       weight: '200',
       style: 'normal',
     },
